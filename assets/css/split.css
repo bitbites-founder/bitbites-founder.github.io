@@ -17,10 +17,12 @@ Description: Split is a centrally-divided layout for a professional online prese
     font-size: 1.1rem;
     font-weight: bold;
     z-index: 2;
+    display: inline;
 }
-#email {
+.mc-field-group {
   color: #dd1021;
   font-weight:bold
+  display: inline;
 }
 
 .sendpress-signup-form p {
@@ -29,6 +31,7 @@ Description: Split is a centrally-divided layout for a professional online prese
     font-size: 1.1rem;
     font-weight: bold;
     z-index: 2;
+    display: inline;
 }
 input[type="email"] {
   font-family: 'Noto Sans', sans-serif;
@@ -37,11 +40,13 @@ input[type="email"] {
     border: 3px solid #dd1021;
       padding: 5px;
       z-index: 2;
+      display: inline;
 }
 
-#closet-CSS {
+#mc-embedded-subscribe {
   background-repeat: no-repeat;
   color: transparent;
+  display: inline;
     background-image: url("../../images/arrow.png");
     background-size: 68px 39px;
     -o-background-size: 68px 39px;
@@ -51,11 +56,11 @@ input[type="email"] {
     border: none;
     height: 40px;  
     width: 70px;
-    margin-left: -3px;
+    margin-left: 0px;
     margin-bottom: 10px;
     z-index: -1;
 }
-#closet-CSS:hover{
+#mc-embedded-subscribe:hover{
 opacity: 0.8;  
 transition-duration: 0.1s;
 }
