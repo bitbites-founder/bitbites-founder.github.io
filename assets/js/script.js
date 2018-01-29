@@ -12,7 +12,7 @@ $('document').ready(function(){
     $.ajax({
       method: 'POST',
       dataType: "json",
-      url: endpoint,
+      url: "/assets/js/endpoint.php",
       data: data
     }).done(function(data){
       if(data.id){
