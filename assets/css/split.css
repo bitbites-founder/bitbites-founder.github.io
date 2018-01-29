@@ -43,7 +43,7 @@ input[type="email"] {
       display: inline;
 }
 
-#mc-embedded-subscribe {
+.button {
   background-repeat: no-repeat;
   color: transparent;
   display: inline;
@@ -63,7 +63,7 @@ input[type="email"] {
     margin-bottom: 10px;
     z-index: -1;
 }
-#mc-embedded-subscribe:hover{
+.button:hover{
 opacity: 0.8;  
 transition-duration: 0.1s;
 }
