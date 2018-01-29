@@ -31,6 +31,9 @@
 	<link rel='stylesheet' href='assets/css/split.css' type='text/css' media='screen' />
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
 </head>
 
 <body id="fullsingle" class="page-template-page-fullsingle-split">
@@ -52,14 +55,15 @@
         
         <p style="padding-bottom: 15px">At Bitbites, where developing a platform that connects restauraunts to a decentralised fleet of on-demand couriers at an extremely low fee. Our application will use IoT-enabled devices along with smart contracts built on the Ethereum blockchain, to make the entire process trustless and efficient like never before. Information on the fundraising event for the upcoming ICO coming soon. If your interested in our idea, or in becoming an early investor, shoot us an email at <a style="display: inline-block;" id="email">team@bitbites.co</a>! </p>
 
-        <form class="sendpress-signup" method="post" id="sendpress_signup" style=" margin-bottom: 25px; margin-top: 20px;">
+        <form class="sendpress-signup" method="POST" id="sendpress_signup" action="endpoint.php" style=" margin-bottom: 25px; margin-top: 20px;">
     <div id="form-wrap">
         <input type="hidden" value="1688" class="sp_list" id="list" name="sp_list" />
         <p name="email">
-            <label for="email">Sign up for updates: </label>
-            <input type="text" style= "" name="sp_email" placeholder=" Email Address" orig="Newsletter - Stay Tuned" class="sp_email" />
+            <label for="mc-email">Sign up for updates: </label>
+            <input type="email" style= "" id="mc-email" name="mc-email" placeholder=" Email Address" orig="Newsletter - Stay Tuned" class="sp_email" required/>
+            <input type="text" value="pending" id="status" name="status" hidden/>
              <span class="submit">
-            <input type="submit" name="submit" id="closet-CSS" class="sendpress-submit" value=" " />
+            <input type="submit" name="submit" id="closet-CSS" class="sendpress-submit" value="Submit" />
         </span>
         </p>
        
