@@ -181,8 +181,9 @@ font-weight: 500;
     color: #47bec7; }
   .tagline {
     display: inline-block;
-     font-weight: 600;
-  font-size: 64px;
+     font-weight: 400;
+
+  font-size: 44px;
   line-height: 80px;
   letter-spacing: -2px; 
     padding-bottom: 40px;
