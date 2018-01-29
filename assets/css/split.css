@@ -9,6 +9,52 @@ Description: Split is a centrally-divided layout for a professional online prese
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
+.sendpress-signup label {
+    text-align: left;
+    margin-right: 5px;
+    margin-top: 9px;
+    color:#000000;
+    font-size: 1.1rem;
+    font-weight: bold;
+    z-index: 2;
+}
+#email {
+  color: #dd1021;
+  font-weight:bold
+}
+
+.sendpress-signup-form p {
+  text-align: center;
+    color:#dd1021;
+    font-size: 1.1rem;
+    font-weight: bold;
+    z-index: 2;
+}
+input[type="text"] {
+  font-family: 'Noto Sans', sans-serif;
+      color: #000000;
+      border-radius: 50px;
+    border: 3px solid #dd1021;
+      padding: 5px;
+      z-index: 2;
+}
+
+#closet-CSS {
+  background-repeat: no-repeat;
+    background-image: url("../../images/arrow.png");
+    background-size: 68px 39px;
+    -o-background-size: 68px 39px;
+    -moz-background-size: 68px 39px;
+    -webkit-background-size: 68px 39px;
+    background-color: #FFFFFF;
+    border: none;
+    height: 40px;  
+    width: 70px;
+    margin-left: -3px;
+    margin-bottom: 10px;
+    z-index: -1;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -186,7 +232,7 @@ font-weight: 500;
   font-size: 44px;
   line-height: 80px;
   letter-spacing: -2px; 
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     color: black; }
 
 .split-bio {
@@ -284,4 +330,4 @@ video.video {
   width: 100%;
   height: 100%; }
 
-  #d {}  
+
