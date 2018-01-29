@@ -48,6 +48,9 @@ input[type="email"] {
   color: transparent;
   display: inline;
     background-image: url("../../images/arrow.png");
+    -webkit-background-image: url("../../images/arrow.png");
+    -o-background-image: url("../../images/arrow.png");
+    -moz-background-image: url("../../images/arrow.png");
     background-size: 68px 39px;
     -o-background-size: 68px 39px;
     -moz-background-size: 68px 39px;
