@@ -8,7 +8,14 @@ Description: Split is a centrally-divided layout for a professional online prese
 /* -- CSS Reset -- */
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+svg {
+  height: 90px;
+  display: inline;
+}
 
+#svg {
+  margin-right: -22px; 
+}
 .sendpress-signup label {
     text-align: left;
     margin-right: 5px;
