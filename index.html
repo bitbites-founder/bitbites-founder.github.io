@@ -47,12 +47,21 @@
       <span class="split-intro">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="-30 -2 180 100" width="60" height="32">
 <g id="group">
-<animateTransform attributeType="xml"                                                             attributeName="transform"
+<animateTransform attributeType="xml"                                                             
+                  attributeName="transform"
+                  id="op"
+                  begin="1.56;op2.end+2"
                   type="rotate"
                   from="0 50 50"
+                  to="180 50 50"
+                  dur="1.34s"/><animateTransform attributeType="xml"                                                        
+                  attributeName="transform"
+                  id="op2"
+                  begin="op.end"
+                  type="rotate"
+                  from="180 50 50"
                   to="360 50 50"
-                  dur="5.5s"
-                  repeatCount="indefinite"/>
+                  dur="1.67s"/>
     <path d="M116 -1C116 -1 116 -1 116 -1C116 54.2 116 84.87 116 91C116 91 116 91 116 91C45.8 91 6.8 91 -1 91C-1 91 -1 91 -1 91C-1 35.8 -1 5.13 -1 -1C-1 -1 -1 -1 -1 -1C69.2 -1 108.2 -1 116 -1Z" fill="none"></path><path d="M61 91L30.5 91L0 91L15.25 50L30.5 9L45.75 50L61 91Z" id="round2" fill="#ffc300"></path><path d="M115 0.5L84.5 0.5L54 0.5L69.25 40.5L84.5 80.5L99.75 40.5L115 0.5Z" id="check" fill="#ffc300"></path><path d="M48.02 55.19L37.5 29.5L65.92 32.16L77.5 60.5L48.02 55.19Z" id="round" fill="#dd1021"></path>
     </g>
 </svg>
